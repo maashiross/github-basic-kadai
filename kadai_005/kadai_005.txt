@@ -1,33 +1,20 @@
-
 C:\Users\smonk\Documents\git_challenge>git init
 Initialized empty Git repository in C:/Users/smonk/Documents/git_challenge/.git/
 
+
 C:\Users\smonk\Documents\git_challenge>git add .
 
-C:\Users\smonk\Documents\git_challenge>git commit -m "hello , world を追加"
-[main (root-commit) 43565bb] hello , world を追加
+C:\Users\smonk\Documents\git_challenge>git commit -m "hello , worldを追加"
+[main (root-commit) 4481da7] hello , worldを追加
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
 
 C:\Users\smonk\Documents\git_challenge>git add .
 
 C:\Users\smonk\Documents\git_challenge>git commit -m "日本語訳を追加"
-On branch main
-nothing to commit, working tree clean
-
-C:\Users\smonk\Documents\git_challenge>git add .
-
-C:\Users\smonk\Documents\git_challenge>git commit -m "日本語訳 を追加"
-[main 1270691] 日本語訳 を追加
+[main 2871419] 日本語訳を追加
  1 file changed, 2 insertions(+), 1 deletion(-)
 
-C:\Users\smonk\Documents\git_challenge>git status
-On branch main
-nothing to commit, working tree clean
-
-C:\Users\smonk\Documents\git_challenge>git log
-commit 1270691aa85bac7a3261794c82205df35bee20c5 (HEAD -> main)
-Author: maahiross <smonkey13@hotmail.com>
 C:\Users\smonk\Documents\git_challenge>git log --oneline
-1270691 (HEAD -> main) 日本語訳 を追加
-43565bb hello , world を追加
+2871419 (HEAD -> main) 日本語訳を追加
+4481da7 hello , worldを追加
